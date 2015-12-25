@@ -1,0 +1,38 @@
+{
+  "name": "pathize-github-url",
+  "version": "0.0.0",
+  "description": "Parse URL and return result with username, repo, type, branch, filename of github",
+  "license": "MIT",
+  "repository": "ragingwind/pathize-github-url",
+  "author": {
+    "name": "ragingwind",
+    "email": "ragingwind@gmail.com",
+    "url": "ragingwind.me"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "path",
+    "url",
+    "pathize"
+  ],
+  "dependencies": {
+    "pathize-url": "^0.1.1"
+  },
+  "devDependencies": {
+    "ava": "^0.3.0",
+    "xo": "^0.10.0"
+  },
+  "xo": {
+    "ignores": [
+      "test.js"
+    ]
+  }
+}
